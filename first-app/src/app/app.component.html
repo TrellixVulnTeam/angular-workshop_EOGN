@@ -1,0 +1,5 @@
+<app-first [myInput] = "title" (newItemEvent)="addItem($event)"></app-first>
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
