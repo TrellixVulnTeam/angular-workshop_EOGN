@@ -1,0 +1,17 @@
+.first{
+  background-color: coral;
+  &.second{
+    .third{
+
+    }
+  }
+}
+
+.first.second{
+  background-color: coral;
+  &.second{
+    .third{
+
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.blue{
+  background-color: aqua;
+  color: blue;
+}
+
+.is-special{
+  background-color: blueviolet;
+}
+
+.not-special{
+  background-color: coral;
+}
+
+button{
+  &:hover{
+  background-color: cornflowerblue;
+  }
+}

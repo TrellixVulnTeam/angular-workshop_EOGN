@@ -1,0 +1,22 @@
+<h3 class="blue">{{ title | uppercase}}</h3>
+<div> {{ 2 + 2 }} </div>
+<p>first works!</p>
+<div> 2 + 2 </div>
+
+<div>This is the current date {{ getDate() | date:"dd/MM/yyyy" }} now</div>
+<div>{{ getName("dsadsa") }}</div>
+
+
+<div *ngIf="isSpecial">This is a special div.</div>
+
+<div [ngClass]="isSpecial? 'is-special' : 'not-special'">Ldsadsadsasdadssaads</div>
+
+
+<ul>
+  <li *ngFor="let color of colors">{{ color }}</li>
+</ul>
+
+
+<div>This string is from my parent: {{ myInput }}</div>
+
+<button type="button" (click)="addItem()">Add to parent's list</button>
